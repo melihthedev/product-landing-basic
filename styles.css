@@ -89,6 +89,10 @@ input[type="submit"] {
 @media (max-width: 600px) {
     #video {
         margin: 0 auto;
+        width: 350px;
+    }
+    .nav-link {
+        font-size: 1rem;
     }
 }
 
