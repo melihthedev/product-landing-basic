@@ -136,6 +136,17 @@ input[type="submit"] {
     color: white;
 }
 
+@media (max-width: 600px)  {
+    .service li {
+        margin-top: 1rem;
+    }
+    .service {
+        margin: .5rem .2rem;
+        border: none;
+        border-bottom: 2px dotted  #f05454;
+    }
+}
+
 .header-service {
     background-color: #f05454;
     margin: 1rem;
