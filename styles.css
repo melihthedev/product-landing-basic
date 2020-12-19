@@ -1,0 +1,172 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #222831;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.main-heading {
+    font-family: cursive;
+
+}
+
+main {
+    padding-top: 100px;
+}
+
+#form,
+#services,
+#info,
+.main-heading {
+    text-align: center;
+}
+
+.nav-link {
+    margin: 1rem;
+}
+
+#form {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+input[type="email"] {
+    width: 200px;
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+input[type="submit"] {
+    font-size: 1rem;
+    margin-top: .5rem;
+}
+
+#info {
+    margin: 2rem;
+}
+
+#info p {
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+@media (max-width: 600px) {
+    #video {
+        margin: 0 auto;
+    }
+}
+
+#video {
+    display: block;
+    max-width: 600px;
+    margin: 1rem auto;
+}
+
+#image-info {
+    width: 200px;
+    background: none;
+    margin-bottom: 1rem;
+}
+
+
+.services-container {
+    background-color: #30475e;
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+    .services-container {
+        flex-direction: column;
+    }
+}
+
+.service li {
+    margin-top: 2rem;
+}
+
+.service {
+    border: 1px solid #f05454;
+    border-radius: 20px;
+    margin: 3rem 3rem;
+    padding: 1rem;
+    color: white;
+}
+
+.header-service {
+    background-color: #f05454;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.btn {
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #f05454;
+    margin: 1.5rem;
+    padding: .7rem 2rem;
+    width: auto;
+    color: inherit;
+}
+
+.btn:hover {
+    width: 150px;
+}
+
+#footer {
+    background-color: #222831;
+    text-align: right;
+    color: white;
+    font-style: italic;
+}
+
+#footer-list {
+    margin-bottom: 1rem;
+}
+
+.footer-link {
+    color: white;
+}
+
